@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information Card</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin: 10px 0 5px 0;
+      color: #333;
+    }
+    p {
+      margin: 4px 0;
+      color: #555;
+    }
+    button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="Student Photo">
+    <h2>Prachi Gaur</h2>
+    <p><strong>Course:</strong> Computer Science</p>
+    <p><strong>Roll No:</strong> 1023</p>
+    <p><strong>Email:</strong> prachi@example.com</p>
+    <button onclick="sayHello()">Say Hello 👋</button>
+  </div>
+
+  <script>
+    function sayHello() {
+      alert("Hello Prachi! Welcome to your HTML Student Card 😊");
+    }
+  </script>
+
+</body>
+</html>
